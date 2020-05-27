@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budgety App</title>
+    <!-- <link
+            href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+            rel="stylesheet"
+            type="text/css"/> -->
+    <link rel="stylesheet" href="./resources/css/style.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="display-left">
+            <div id="display-left-heading">
+                <h1>Budgety App</h1>
+            </div>
+            <div id="display-left-display">
+                <div id="balance-display" class="left-display-box">
+                    <span>Balance:</span>
+                    <span id="balance-value">0</span>
+                </div>
+                <div id="income-display" class="left-display-box">
+                    <span>Income:</span>
+                    <span id="income-value">0</span>
+                </div>
+                <div id="expense-display" class="left-display-box">
+                    <span>Expense:</span>
+                    <span id="expense-value">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="display-right">
+            <div id="input-div">
+                <select id="operator">
+                    <option value="inc">Add Income (+)</option>
+                    <option value="exp">Add Expense (-)</option>
+                </select>
+                <input id="description" type="text" placeholder="Add description here..." required />
+                <input id="value" type="number" placeholder="Enter Amount" required />
+                <button type="submit" id="submit">Submit</button>
+            </div>
+
+            <div id="display-right-display">
+                <div id="income-display-right">
+                    <h2>Income</h2>
+                    <!-- JS GENERATED HTML HERE FOR INCOME -->
+                    <div class="income-display-right-list">
+                        <!-- <div class="income-item">
+                                <span class="desc-span">sold car </span>
+                                <span class="value-span">$2000</span>
+                                <span class="cross-span">X</span>
+                            </div> -->
+                    </div>
+                </div>
+
+                <div id="expense-display-right">
+                    <h2>Expense</h2>
+                    <!-- JS GENERATED HTML HERE FOR EXPENSE -->
+                    <div class="expense-display-right-list">
+                        <!-- <div class="expense-item">
+                                <span class="desc-span">bought macbook </span>
+                                <span class="value-span">$2000</span>
+                                <span class="cross-span">X</span>
+                            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./resources/scripts/app.js"></script>
+</body>
+
+</html>
