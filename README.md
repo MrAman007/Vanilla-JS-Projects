@@ -1,12 +1,12 @@
 # Vanilla JavaScript Projects
-##### Simple projects using vanilla JS (no library or framework).
 
+##### Simple projects using vanilla JS (no library or framework).
 
 | Project Name       | Code                                                                                          | Live                                         |
 | ------------------ | --------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | Form Validator     | [Github](https://github.com/MrAman007/Vanilla-JS-Projects/tree/master/Form%20validator)       | [Live](https://formvalidatorjs.netlify.app/) |
 | Movie Seat Booking | [Github](https://github.com/MrAman007/Vanilla-JS-Projects/tree/master/Movie%20seat%20booking) | [Live](https://bookmyseat.netlify.app/)      |
-| Budgety App        | [Github](https://github.com/MrAman007/Vanilla-JS-Projects/tree/master/Budget%20App)           | [Live](https://budgetycalc.netlify.app/)     |
 
 
-*More will be added soon...*
+
+_More will be added soon..._
